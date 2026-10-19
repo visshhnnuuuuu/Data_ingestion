@@ -3,12 +3,14 @@ name = "data-ingestion"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 dependencies = [
+    "chromadb>=1.5.9",
     "ipykernel>=6.31.0",
     "langchain>=0.3.30",
     "langchain-community>=0.3.31",
     "langchain-core>=0.3.86",
     "pymupdf>=1.26.5",
     "pypdf>=6.19.0",
+    "sentence-transformers>=5.1.2",
 ]
